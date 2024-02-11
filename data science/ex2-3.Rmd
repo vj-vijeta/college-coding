@@ -1,0 +1,24 @@
+---
+title: "ex2"
+output: html_document
+date: "2023-01-22"
+---
+
+```{r }
+test<-read.csv("test.csv",header=TRUE,stringsAsFactors=FALSE)
+```
+```{r}
+train<-read.csv("train.csv",header=TRUE,stringsAsFactors=FALSE)
+```
+```{r}
+glimpse(test)
+```
+```{r}
+glimpse(train)
+```
+```{r}
+duplicated(train)
+isTRUE(duplicated(train))
+```
+
+
